@@ -10,6 +10,7 @@ public class Test01 {
     @Test
     public void isFlower(){
         int num = 200;
+        String phone;
         if(num >=100 && num <=999){
             int gw = num % 10,sw = num / 10 % 10,bw = num /100;
             int sum = gw * gw * gw + sw * sw *sw + bw * bw * bw;
